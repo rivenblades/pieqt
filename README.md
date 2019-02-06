@@ -9,9 +9,12 @@ You have a GUI app up and running.
 ----------------------------------------
 from pieqt import*
 
-app = App()*
-app.addWidget(QPushButton("Press me!"))*
-app.run()*
+app = App()
+
+app.addWidget(QPushButton("Press me!"))
+
+app.run()
+
 
 ---------------------------------------
 **************Example******************
