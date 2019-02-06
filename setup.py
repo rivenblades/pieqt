@@ -16,7 +16,7 @@ setup(
     long_description=readme,
     author='kostas_petsis',
     author_email='kostaspetsis@outlook.com',
-    url='project_url',
+    url='https://github.com/rivenblades/pieqt',
     license=license,
     packages=find_packages(),
 )
