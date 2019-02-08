@@ -1,4 +1,4 @@
-from .pieqt import *
+from . import pieqt
 class App():
 	def __init__(self,argv=[]):
 		self.app = QApplication(argv)
