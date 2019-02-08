@@ -20,4 +20,4 @@ def import_submodules(package, recursive=True):
         if recursive and is_pkg:
             results.update(import_submodules(full_name))
     return results
-import_sumbodules(pieqt)
+import_submodules(pieqt)
