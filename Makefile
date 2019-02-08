@@ -1,9 +1,9 @@
 all:
 	python setup.py bdist_wheel
 	git add *
-	git commit -m "Update"
+	@read -p "Enter a commit message:" message;\
+	git commit -m $$message;
 	git push
-	twine upload dist/*
 init:
 	pip install -r requirements.txt
 
