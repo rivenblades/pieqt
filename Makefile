@@ -1,7 +1,8 @@
 all:
 	python setup.py bdist_wheel
 	git add *
-	@read -p "Enter a commit message:" message;\
+	@echo "Enter a commit message"
+	@read message;\
 	git commit -m $$message;
 	git push
 init:

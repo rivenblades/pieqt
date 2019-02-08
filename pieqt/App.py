@@ -1,4 +1,4 @@
-from PySide2.QtWidgets import*
+from . import pieqt
 class App():
 	def __init__(self,argv=[]):
 		self.app = QApplication(argv)

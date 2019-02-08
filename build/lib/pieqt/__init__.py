@@ -1,1 +1,2 @@
-from .pieqt import*
+from . import pieqt
+from . import App
