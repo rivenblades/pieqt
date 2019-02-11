@@ -1,4 +1,5 @@
 App.py
+README.md
 pieqt.py
 setup.py
 pieqt.egg-info/PKG-INFO

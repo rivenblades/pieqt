@@ -3,15 +3,15 @@
 from setuptools import setup, find_packages
 
 
-with open('../README.md') as f:
+with open('README.md') as f:
     readme = f.read()
 
-with open('../LICENSE') as f:
+with open('LICENSE') as f:
     license = f.read()
 
 setup(
     name='pieqt',
-    version='0.0.3',
+    version='0.0.6',
     description='simple description',
     long_description=readme,
     author='kostas_petsis',

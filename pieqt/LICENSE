@@ -1,11 +1,4 @@
-Metadata-Version: 1.0
-Name: pieqt
-Version: 0.0.6
-Summary: simple description
-Home-page: https://github.com/rivenblades/pieqt
-Author: kostas_petsis
-Author-email: kostaspetsis@outlook.com
-License: MIT License
+MIT License
 
 Copyright (c) 2019 kostas_petsis
 
@@ -26,26 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
-Description: ## pieqt Project
-        ------
-        
-        pieqt is a module that helps you start with python qt(PySide2) with minimal effort.Many examples of PySide2 that I've seen are cumbersome, have many classes etc...
-        With pieqt, you just declare an app variable that holds your GUI app, and then add widgets and layouts.Finally you run it, and thats it!!!
-        You have a GUI app up and running.
-        
-        **************Example*******************
-        ----------------------------------------
-        from pieqt import*
-        
-        app = App()
-        
-        app.addWidget(QPushButton("Press me!"))
-        
-        app.run()
-        
-        
-        ---------------------------------------
-        **************Example******************
-        
-Platform: UNKNOWN
