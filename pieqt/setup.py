@@ -11,7 +11,7 @@ with open('../LICENSE') as f:
 
 setup(
     name='pieqt',
-    version='0.0.2',
+    version='0.0.3',
     description='simple description',
     long_description=readme,
     author='kostas_petsis',
